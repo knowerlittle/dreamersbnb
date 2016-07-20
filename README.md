@@ -1,10 +1,10 @@
-# Makers BnB
+# DreamersBnB
 
 Makers Academy Week 6 Group Project
 
 MVP of an AirBnB clone using Ruby, Sinatra, Postgresql, DataMapper, Javascript, JQuery (including AJAX), Bootstrap, and test driven using RSpec/Capybara.
 
-Hosted on Heroku at [https://still-beyond-14508.herokuapp.com/](https://still-beyond-14508.herokuapp.com/)
+Hosted on Heroku at [https://dreamersbnb.herokuapp.com/](https://still-beyond-14508.herokuapp.com/)
 
 - Users can sign up for an account, and add a listing.
 - Once a listing has been added, the user can add inventory dates that the accommodation is available to be booked.
