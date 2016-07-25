@@ -1,7 +1,11 @@
 body {
   background-image: url('/images/empty-room.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   align-items: center;
+
 }
 
 header {
