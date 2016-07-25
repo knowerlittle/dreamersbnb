@@ -1,31 +1,40 @@
-# DreamersBnB
+![DreamersBnB](http://i.imgur.com/KxTOeje.png)
 
-Makers Academy Week 6 Group Project
+A simple CRUD (Create, Read, Update, Delete) site for listing accommodations.[View Site](https://dreamersbnb.herokuapp.com/)
 
-MVP of an AirBnB clone using Ruby, Sinatra, Postgresql, DataMapper, Javascript, JQuery (including AJAX), Bootstrap, and test driven using RSpec/Capybara.
+##Installation
+**Technologies used:**
+`Ruby / Sinatra / PostgreSQL / DataMapper / Javascript / JQuery / Bootstrap`
+<br>
+**Testing Frameworks:**
+<br>
+`RSpec / Capybara`
 
-Hosted on Heroku at [https://dreamersbnb.herokuapp.com/](https://still-beyond-14508.herokuapp.com/)
+1. Clone this repository
+2. Create two `postgres` databases called `dreamersbnb_development` and `dreamersbnb_test`
+3. Run `bundle install`
+4. Create database : Run `rake db_migrate`
+5. Create test database : Run `rake db_migrate RACK_ENV=test`
+6. Run `RSpec` to make sure all tests are passing!
+6. Run `rackup config.ru`
+7. Open up `localhost:9292` in your web browser
+8. Start creating listings!
 
-- Users can sign up for an account, and add a listing.
-- Once a listing has been added, the user can add inventory dates that the accommodation is available to be booked.
-- Inventory can only be added by the user who listed the accommodation.
-- A date can only be added to the inventory once for each acommodation - dates are blocked off the datepicker once the inventory has been added for that date.
+##How it works
+- Everyone can see available listings
+- Users must sign up to add listings and make bookings  
+- Users create listings with a form and sets availabilty with datepicker
+- Booking requests can be accepted or rejected
+- A date can only be requested if it has not already been booked
+- AJAX is used with the JQuery datapicker to block out dates
 
-- Users can also request to stay at accommodation that they have not listed.
-- The creates a reject object that the accommodation owner can accept or reject.
-- This updates the request object, so the requestor can see if it has been accepted or rejected.
-- Accepting the request also makes a custom AJAX PUT request to update the relevant inventory dates as booked.
-- A date can only be requested if it has not already been booked - again this is done through blocking dates out of the datepicker.
-
-- An AJAX get request is made to get inventory data for the selected accommodation when the page with datepickers is loaded. The returned json data is then used to block out out the dates as required.
-
-[![Build Status](https://travis-ci.org/harrim91/makers-bnb.svg?branch=master)](https://travis-ci.org/harrim91/makers-bnb)
-[![Coverage Status](https://coveralls.io/repos/github/harrim91/makers-bnb/badge.svg?branch=master)](https://coveralls.io/github/harrim91/makers-bnb?branch=master)
-
-
-Collaborators
+Authors
 -------
  - [Daniel Ortiz](http://www.github.com/Vollcode)
  - [Michael Harrison](http://www.github.com/harrim91)
- - [Noah Pollock](http://www.github.com/knowerlittle)
  - [Ruta Baltiejute](http://www.github.com/Melodija)
+ - [Noah Pollock](http://www.github.com/knowerlittle)
+
+License
+-------
+:hatching_chick: Free as a bird - 2016 :hatched_chick:
