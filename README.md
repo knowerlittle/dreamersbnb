@@ -2,8 +2,9 @@
 
 A simple CRUD (Create, Read, Update, Delete) site for listing accommodations.[View Site](https://dreamersbnb.herokuapp.com/)
 
-##Installation
+##Installation 
 **Technologies used:**
+<br>
 `Ruby / Sinatra / PostgreSQL / DataMapper / Javascript / JQuery / Bootstrap`
 <br>
 **Testing Frameworks:**
@@ -13,9 +14,9 @@ A simple CRUD (Create, Read, Update, Delete) site for listing accommodations.[Vi
 1. Clone this repository
 2. Create two `postgres` databases called `dreamersbnb_development` and `dreamersbnb_test`
 3. Run `bundle install`
-4. Create database : Run `rake db_migrate`
-5. Create test database : Run `rake db_migrate RACK_ENV=test`
-6. Run `RSpec` to make sure all tests are passing!
+4. Run `rake db_migrate`
+5. Run `rake db_migrate RACK_ENV=test`
+6. Run `rspec` to make sure all tests are passing!
 6. Run `rackup config.ru`
 7. Open up `localhost:9292` in your web browser
 8. Start creating listings!
