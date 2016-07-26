@@ -13,13 +13,13 @@ A simple CRUD (Create, Read, Update, Delete) site for listing accommodations. [V
 
 1. Clone this repository
 2. Create two `postgres` databases called `dreamersbnb_development` and `dreamersbnb_test`
-3. Run `bundle install`
-4. Run `rake db_migrate`
-5. Run `rake db_migrate RACK_ENV=test`
+3. Run `bundle install` to install Gemfiles
+4. Run `rake db_migrate` to create database tables
+5. Run `rake db_migrate RACK_ENV=test`to create test database tables
 6. Run `rspec` to make sure all tests are passing!
 6. Run `rackup config.ru`
-7. Open up `localhost:9292` in your web browser
-8. Start creating listings!
+7. In a Web Broswer open up `localhost:9292`
+8. Create listings!
 
 ##How it works
 - Everyone can see available listings
