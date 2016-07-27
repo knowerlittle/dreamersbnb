@@ -1,7 +1,10 @@
-![DreamersBnB](http://i.imgur.com/KxTOeje.png)
+<center>
+<img src="http://i.imgur.com/KxTOeje.png" width="400" />
 
-A simple CRUD (Create, Read, Update, Delete) site for listing accommodations. [View Site](https://dreamersbnb.herokuapp.com/)
+A simple CRUD (Create, Read, Update, Delete) site for listing accommodations. 
+[View Site](https://dreamersbnb.herokuapp.com/)
 
+</center>
 ##Installation 
 **Technologies used:**
 <br>
