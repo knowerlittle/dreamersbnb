@@ -3,7 +3,6 @@
 A simple CRUD (Create, Read, Update, Delete) site for listing accommodations. 
 [View Site](https://dreamersbnb.herokuapp.com/)
 
-##Installation 
 **Technologies used:**
 <br>
 `Ruby / Sinatra / PostgreSQL / DataMapper / Javascript / JQuery / Bootstrap`
@@ -12,6 +11,7 @@ A simple CRUD (Create, Read, Update, Delete) site for listing accommodations.
 <br>
 `RSpec / Capybara`
 
+##Installation 
 1. Clone this repository
 2. Create two `postgres` databases called `dreamersbnb_development` and `dreamersbnb_test`
 3. Run `bundle install` to install Gemfiles
